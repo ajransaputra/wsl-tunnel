@@ -6,12 +6,12 @@
       "port": __PORT__,
       "protocol": "vless",
       "settings": {
-        "clients": [ { "id": "e9570cd3-e457-44fb-b023-d9f5aa4226cc" } ],
+        "clients": [ { "id": "__UUID__" } ],
         "decryption": "none"
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": { "path": "/a75b17de45a7" }
+        "wsSettings": { "path": "__WSPATH__" }
       }
     }
   ],
