@@ -1,0 +1,19 @@
+{
+  "log": { "loglevel": "warning" },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": __PORT__,
+      "protocol": "vless",
+      "settings": {
+        "clients": [ { "id": "e9570cd3-e457-44fb-b023-d9f5aa4226cc" } ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": { "path": "/a75b17de45a7" }
+      }
+    }
+  ],
+  "outbounds": [ { "protocol": "freedom" } ]
+}
